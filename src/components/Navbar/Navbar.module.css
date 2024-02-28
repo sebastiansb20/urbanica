@@ -1,0 +1,65 @@
+.navbar{
+    background-color: rgb(189, 201, 196);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+    height: 70px;
+}
+
+
+.menu {
+    display:flex;
+    align-items: center;
+}
+
+.menu li{
+    padding: 1rem;
+}
+
+.navbar a{
+     font-size: 1.2rem;
+     font-family: 'montserrat';
+     color: #1a1b1f;
+     opacity: 90%;
+    }
+
+.mobile_btn{
+    display: none;
+}
+
+@media screen and (max-width:720px) {
+
+    .mobile_btn{
+        display:block;
+        position: absolute;
+        right: 1rem;
+        cursor:pointer;
+        z-index: 10;
+    }
+
+    .menu{
+        display:flex;        
+        justify-content: center;
+        flex-direction:column;
+        position:fixed;
+        left: -160%;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        height: 100vh;
+       
+        z-index: 10;
+        transition: left 1s;
+
+    }
+
+    .active{
+        left: 0;
+    }
+
+    .navbar a{
+        font-size:2rem;
+    }
+}
