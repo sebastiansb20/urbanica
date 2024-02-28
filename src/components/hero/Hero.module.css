@@ -1,0 +1,23 @@
+
+
+.heroContainer {
+    display: flex;
+    background-color: #5b7d7d;
+    justify-content: center;
+    height: 620px;
+    margin:8px;
+    border-radius: 12px;
+}
+
+
+
+.hero {
+    justify-content: center;
+    
+}
+
+.imagenHero {
+    margin-top: 6rem;
+    max-width: 100%;
+    min-width: 30%;
+}
