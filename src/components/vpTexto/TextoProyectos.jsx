@@ -8,10 +8,10 @@ const TextoProyectos = () => {
         <>
         <div className={styles.dvproyectos} >
             <div className={styles.dvHeading1}>
-                <h1 className={styles.heading1}>PROYECTOS INTEGRALES</h1>
+                <h1 id={styles.heading1}>PROYECTOS INTEGRALES</h1>
             </div>
-            <div className={styles.dvHeading4I}>
-                <h4 className={styles.heading4}>Enfocados en mejorar las condiciones de vida en la ciudad,
+            <div className={styles.dvHeading4}>
+                <h4 id={styles.heading4}>Enfocados en mejorar las condiciones de vida en la ciudad,
                     buscando la armonía entre lo construido y lo natural
                     para lograr el confort en la vida urbana.
                 </h4>

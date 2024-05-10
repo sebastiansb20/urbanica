@@ -5,6 +5,7 @@ import Hero from './components/hero/Hero';
 import TextoProyectos from './components/vpTexto/TextoProyectos';
 import PilaresInicio from './components/pilaresInicio/PilaresInicio';
 import Footer from './components/Footer/Footer'
+import ContactoBreve from './components/ContactoBreve/ContactoBreve';
 function App() {
   
 
@@ -14,6 +15,7 @@ function App() {
         <Hero />
         <TextoProyectos />
         <PilaresInicio />
+        <ContactoBreve />
         <Footer />
     </>
   )

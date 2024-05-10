@@ -11,7 +11,7 @@
 
 .dvPilares h1{
     color:white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'montserrat';
     font-weight: 300;
 }
 .gridContainer{
@@ -26,7 +26,7 @@
 }
 
 .dvTextoDisciplinas h3{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'montserrat';
     color:white;
     font-weight: 400;
 }
@@ -38,7 +38,7 @@
 .boxPilar h3{
     margin-bottom: 0.5rem;
     font-size: 2rem;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'montserrat';
     color:white;
     font-weight: 400;
 }

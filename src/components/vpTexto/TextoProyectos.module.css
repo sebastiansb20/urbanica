@@ -7,22 +7,31 @@
 
 
 .dvHeading1{
-    font-size: 2rem;
-    font-family:'arial';
     padding:4rem;
     margin: auto;
-    font-weight: 400;
 }
 
-.dvHeading4I{
+.dvHeading4{
     display: inline-block;
-    font-size: 1.8rem;
     max-width: 750px;
     padding-left: 4rem;
-    margin:auto;
+    margin:auto
     /* margin-top:24px;
     margin-left: 150px; */
     /* font-family:  */
+}
+
+#heading1{
+    font-size: 4.5rem;
+    font-family:'montserrat';
+    font-weight: 500;
+    opacity: 7x0%;
+}
+
+#heading4{
+    font-family:'montserrat';
+    font-weight: 300;
+    font-size: 1.8rem;
 }
 
 .gridContainerInfo{
@@ -30,6 +39,7 @@
     padding:2rem;
     column-gap: 0.5rem;
     align-content: center;
+    font-family:'montserrat';
     /* margin:auto;
     left: 0;
     right:0; */
@@ -37,4 +47,9 @@
 
 .boxItemInfo{
     padding:1rem;
+}
+
+.centrar{
+    margin: 0 auto;
+    margin-left: 2rem;
 }
