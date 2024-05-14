@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import styles from './TextoProyectos.module.css'
 import {Box, Grid, StylesProvider} from '@material-ui/core'
-import imagenBoceto  from '../../assets/images/inicio/UrbanicaCroquisVilladelSolUruguay.jpg'
+import imagenBoceto  from '../../../assets/images/inicio/UrbanicaCroquisVilladelSolUruguay.jpg'
 const TextoProyectos = () => {
 
     return(

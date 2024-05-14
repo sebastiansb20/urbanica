@@ -6,6 +6,8 @@
     margin-top: 2rem;
     padding-top: 4rem;
     padding-bottom: 0.5rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
 }
 
 #logoUrbanica{

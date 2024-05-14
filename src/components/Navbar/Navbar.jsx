@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import style from './Navbar.module.css'
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
 
+
 const Navbar = () => {
 
     const [nav, setNav] = useState(false);
@@ -13,10 +14,10 @@ const Navbar = () => {
             <nav>
                 <ul className={ nav ? [style.menu, style.active].join(' ') : style.menu}>
                     <li>
-                        <a>INICIO</a>
+                        <a href='/inicio'>INICIO</a>
                     </li>
                     <li>
-                        <a>PROYECTOS</a>
+                        <a href='/proyectos'>PROYECTOS</a>
                     </li>
                     <li>
                         <a>EQUIPO</a>

@@ -22,7 +22,7 @@
 }
 
 .dvTextoDisciplinas{
-    max-width: 750px;
+    max-width:930px;
     margin:auto;
     margin-top: 2rem;
     margin-bottom: 4rem;    
@@ -32,6 +32,7 @@
     font-family: 'montserrat';
     color:white;
     font-weight: 400;
+    opacity: 80%;
 }
 
 .boxPilar{

@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './Hero.module.css';
-import logoUrbanica from '../../assets/logoUrbanica.png';
+import logoUrbanica from '../../../assets/logoUrbanica.png';
 
 const Hero = ()=> {
 

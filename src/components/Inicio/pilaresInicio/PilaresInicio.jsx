@@ -1,9 +1,10 @@
 import React from 'react';
 import {Box, Grid} from '@material-ui/core'
 import styles from './PilaresInicio.module.css'
-import PilarArquitectura from '../../assets/images/inicio/CARARQ.jpg'
-import PilarUrbanismo from '../../assets/images/inicio/CARURB.jpg'
-import PilarPaisajismo from '../../assets/images/inicio/CARIAPAI.jpg'
+import PilarArquitectura from '../../../assets/images/inicio/CARARQ.jpg'
+import PilarUrbanismo from '../../../assets/images/inicio/CARURB.jpg'
+import PilarPaisajismo from '../../../assets/images/inicio/CARIAPAI.jpg'
+
 
 const PilaresInicio = () =>{
 
