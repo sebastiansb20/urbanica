@@ -1,7 +1,7 @@
 import React from 'react';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import Inicio from '../pages/Inicio'
-import Proyectos from '../pages/Proyectos'
+import Inicio from '../pages/Inicio/Inicio'
+import Proyectos from '../pages/Proyectos/Proyectos'
 
 function RoutesS() {
     return (
