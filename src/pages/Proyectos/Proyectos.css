@@ -1,0 +1,38 @@
+
+
+.dvHero{
+    max-width: 900px;
+    padding:2rem;
+    margin: 0 auto;
+}
+
+#h1HeroPr{
+    font-family: 'montserrat';
+    font-weight: 300;
+    font-size: 1.5rem;
+    opacity: 80%;
+    line-height: 2;
+    
+}
+
+/* seccion proyectos arquitectura */
+
+.dvSeccionProyecto{
+    background-color: #5b7d7d;
+}
+
+.dvheadingPr{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 4rem;
+    /* border: 1px solid black; */
+}
+
+.dvheadingPr h2{
+    font-family: 'montserrat';
+    opacity:90%;
+    color:black;
+    font-weight: 400;
+    font-size: 5rem;
+    
+}
