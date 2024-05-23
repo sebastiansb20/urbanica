@@ -10,37 +10,76 @@
 
 .dvTextoProyecto h2{
     font-family: 'montserrat';
-    font-size:1rem;
+    font-size:2.5rem;
     font-weight: 300;
     margin-left:-4.5rem;
-    color:white;
+    /* color:white; */
 }
 
 .dvTextoProyecto h4{
     font-family: 'montserrat';
     opacity: 85%;
-    color:white;
     font-weight: 400;
-    font-size: 1.8rem;
-    padding-bottom: 2rem;
+    /* padding-bottom: 2rem; */
 }
 
 #imgLunas{
-    max-width: 70%;
+    max-width: 90%;
     border-radius: .5rem;
 }
-
+/* 
 #btnverproyecto{
-    margin-top: 3rem;
+    margin-top: 2rem;
     color:#5b7d7d;
     background-color: white;
     transition-duration: 0.4s;
+    margin-left:-8rem;
 }
 #btnverproyecto:hover{
     color:black;
-    /* background-color: black; */
+    background-color: black;
 
-}
+} */
 .soa{
     color:black
 }
+
+/* boton */
+
+#btnverproyecto {
+    margin-left:-8rem;
+    margin-top: 2rem;
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    overflow: hidden;
+    border-radius: 5px;
+    border: none;
+    background-color: #343a40
+  }
+  #btnverproyecto:hover {
+    border-radius: 5px;
+    padding-right: 24px;
+    padding-left:8px;
+  }
+  #btnverproyecto:hover:after {
+    opacity: 1;
+    right: 4px;
+  }
+  #btnverproyecto:after {
+    content: "\00BB";
+    position: absolute;
+    opacity: 0;
+    font-size: 20px;
+    line-height: 40px;
+    top: 0;
+    right: -20px;
+    transition: 0.4s;
+  }
