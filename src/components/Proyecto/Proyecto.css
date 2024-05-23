@@ -1,53 +1,58 @@
 
+.dvSeccionProyecto{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
 
-
-.dvTextoProyecto{
+.dvTextoProyecto {
     text-align: center;
     justify-content: center;
-    margin-top: 10vh;
-    /* margin-top: 4rem; */
+    /* margin-top: 10vh; */
+    margin-top: 10rem;
 }
 
 .dvTextoProyecto h2{
     font-family: 'montserrat';
     font-size:2.5rem;
     font-weight: 300;
-    margin-left:-4.5rem;
-    /* color:white; */
+    font-style: italic;
+    
 }
 
 .dvTextoProyecto h4{
     font-family: 'montserrat';
     opacity: 85%;
     font-weight: 400;
-    /* padding-bottom: 2rem; */
+    padding-top:1rem;
+}
+
+.dvImagenProyectoD{
+    display: flex;
+    justify-content: right;
+    padding-right:1rem;  
+    padding-top: 2rem;   
+}
+
+.dvImagenProyectoI{
+    display: flex;
+    justify-content: left;
+    padding-left:1rem; 
+    padding-top: 2rem;       
 }
 
 #imgLunas{
     max-width: 90%;
     border-radius: .5rem;
+    /* text-align: right; */
+    align-items: right;
+    
 }
-/* 
-#btnverproyecto{
-    margin-top: 2rem;
-    color:#5b7d7d;
-    background-color: white;
-    transition-duration: 0.4s;
-    margin-left:-8rem;
-}
-#btnverproyecto:hover{
-    color:black;
-    background-color: black;
 
-} */
-.soa{
-    color:black
-}
 
 /* boton */
 
 #btnverproyecto {
-    margin-left:-8rem;
+    /* margin-left:-8rem; */
     margin-top: 2rem;
     min-width: 130px;
     height: 40px;

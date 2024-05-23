@@ -3,7 +3,7 @@ import styles from './ContactoBreve.module.css'
 import TextField from '@mui/material/TextField'
 import Button from '@mui/material/Button';
 
-const ContactoBreve = () =>{
+const ContactoBreve = ({origen}) =>{
 
     const [texto, setTexto] = useState('');
 
@@ -19,7 +19,7 @@ const ContactoBreve = () =>{
 
     return(
         <>
-        <div className={styles.dvContactoBreve}>
+        <div className={origen === 1 ? (styles.dvContactoBreve + ' ' + styles.dvContactoBreveInicio) : styles.dvContactoBreve}>
 
             <h2>Comencemos a trabajar juntos</h2>
 
