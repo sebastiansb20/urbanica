@@ -20,10 +20,10 @@ const Navbar = () => {
                         <a href='/proyectos'>PROYECTOS</a>
                     </li>
                     <li>
-                        <a>EQUIPO</a>
+                        <a href='/equipo'>EQUIPO</a>
                     </li>
                     <li>
-                        <a>CONTACTO</a>
+                        <a href='/contacto'>CONTACTO</a>
                     </li>
                 </ul>
             </nav>

@@ -1,0 +1,48 @@
+
+.dvInfoEquipo{
+    display:block;
+    text-align: center;
+    margin-top:5rem;
+    margin-bottom: 3rem;
+}
+
+.dvNombreEquipo{
+    display:flex;
+    justify-content: center;
+}
+
+.dvInfoEquipo h3{
+    font-size: 1.8rem;
+    font-family: 'montserrat';
+    opacity: 85%;
+    /* padding:2rem; */
+    font-weight: 500;
+}
+
+#imgLogo{
+   margin-top:-1rem;    
+}
+
+.dvInfoEquipo p{
+    font-size:1.5rem;
+    font-family: 'montserrat';
+    opacity: 90%;
+    padding:.5rem;
+}
+
+.listaInfoEquipo{
+    max-width: 650px;
+    /* text-align: center; */
+    margin:auto;
+    margin-top:2rem;
+    
+}
+
+.itemListaEquipo{
+    padding-top:.9rem;
+    font-size: 1rem;
+    font-family: 'montserrat';
+    text-align: left;
+    line-height: 1.5;
+} 
+
