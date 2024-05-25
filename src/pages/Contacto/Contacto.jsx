@@ -66,32 +66,32 @@ const handleChange = (event) =>{
             <Grid item xs={2} >
 
                 <Box className={'boxContacto'}>
-                    <h3>ARQUITECTURA</h3>
-                    
+                    <h3>Ma. Victoria Bidegain</h3>
+                    <h4>mvbidegain@gmail.com</h4>
                 </Box>
 
             </Grid>
             <Grid item xs={2} >
 
                 <Box className={'boxContacto'}>
-                    <h3>URBANISMO</h3>
-                   
-                </Box>
-                
-            </Grid>
-            <Grid item xs={2} >
-
-                <Box className={'boxContacto'}>
-                    <h3>URBANISMO</h3>
-                   
+                    <h3>Sergio Maceira</h3>
+                    <h4>sergiomaceira@gmail.com</h4>
                 </Box>
                 
             </Grid>
             <Grid item xs={2} >
 
                 <Box className={'boxContacto'}>
-                    <h3>PAISAJISMO</h3>
-                    
+                    <h3>Lorena Díaz</h3>
+                    <h4>lorenadiazgrossy@gmail.com</h4>
+                </Box>
+                
+            </Grid>
+            <Grid item xs={2} >
+
+                <Box className={'boxContacto'}>
+                    <h3>Gimena Rojas</h3>
+                    <h4>gimenarojas802@gmail.com</h4>
                 </Box>
 
             </Grid>
