@@ -5,7 +5,7 @@ import { Input, inputClasses } from '@mui/base/Input';
 import './Contacto.css'
 import Button from '@mui/material/Button';
 import {Box, Grid} from '@material-ui/core'
-
+import Footer from '../../components/Footer/Footer'
 
 
 const Contacto = () =>{
@@ -98,10 +98,7 @@ const handleChange = (event) =>{
             </Grid>
         </Grid>
 
-        {/* <div className='dvPrincipalesContactos'>
-               
-
-        </div> */}
+        <Footer />
         </>
     )
 }
