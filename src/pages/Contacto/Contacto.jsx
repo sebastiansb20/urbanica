@@ -60,8 +60,9 @@ const handleChange = (event) =>{
 			<div className="col-xs-12">
                 <Button id='btnEnviar' variant="contained" onClick={handleClick}>ENVIAR</Button>
 			</div>
+
+            
 	    </div>
-        <div className='dvPrincipalesContactos'>
         <Grid container className='gridContainerContactos'>
             <Grid item xs={2} >
 
@@ -95,9 +96,12 @@ const handleChange = (event) =>{
                 </Box>
 
             </Grid>
-        </Grid>       
+        </Grid>
 
-        </div>
+        {/* <div className='dvPrincipalesContactos'>
+               
+
+        </div> */}
         </>
     )
 }
