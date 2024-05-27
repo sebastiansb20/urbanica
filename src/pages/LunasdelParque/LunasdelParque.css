@@ -1,0 +1,18 @@
+
+.dvHeroJacaranda{
+    text-align:center;
+}
+
+.dvHeroJacaranda h1{
+    font-family: 'montserrat';
+    font-size:xx-large;
+    font-weight: 400;
+}
+
+#imgFrenteLunas{
+    max-width: 60%;
+}
+
+#imgEsquinaLunas{
+    max-width: 80%;
+}
