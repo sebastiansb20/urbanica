@@ -9,10 +9,72 @@
     font-weight: 400;
 }
 
+.containers{
+    /* max-width: 70%; */
+    transition: 2s;
+}
+
+.containesr:hover{
+    /* max-width: 70%; */
+    background-color: blue;
+    /* transition: 2s; */
+}
+
 #imgFrenteLunas{
-    max-width: 60%;
+    max-width: 70%;
+    transition: 2s;
+}
+
+#imgFrenteLunas:hover{
+    max-width: 80%;
 }
 
 #imgEsquinaLunas{
-    max-width: 80%;
+    max-width: 90%;
+    box-shadow: 3px 3px 9px 3px rgba(0, 0, 0, 0.3);
+    transition: .8s;
+}
+
+#imgEsquinaLunas:hover{
+    max-width: 95%;
+}
+
+.boxInfoLunas{
+    text-align: left;
+    margin-top:4rem;
+    transition: 2s;
+}
+
+.boxInfoLunas:hover{
+    background-color: red;
+}
+
+.pInfoLunas{
+    font-family: 'montserrat';
+    font-size: 1.5rem;
+    padding-top:5rem;
+    padding-left: 3rem;
+    opacity: 70%;
+    
+}
+
+.pInfoLunasA{
+    
+    max-width: 400px;
+    font-family: 'montserrat';
+    font-size: 1.5rem;
+    padding-top:3.5rem;
+    padding-left: 1rem;
+    opacity: 70%;
+}
+
+.span{
+    border-bottom: 1px solid black;
+    padding-left:4rem;
+    transition: .2s;
+}
+
+.span:hover{
+    padding-left:8rem;
+    
 }

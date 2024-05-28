@@ -1,6 +1,6 @@
 import React from 'react';
 import './LunasdelParque.css'
-import {Grid, Box} from '@material-ui/core'
+import {Grid, Box, Divider} from '@material-ui/core'
 import NavBar from '../../components/navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
 import  frenteLunas from '../../assets/images/lunasdelParque/frenteLunas.jpg'
@@ -19,7 +19,7 @@ const LunasdelParque = () =>{
 
             <img id='imgFrenteLunas' src={frenteLunas} alt='Lunas del Parque Urbanica Uruguay'/>
 
-            <Grid container>
+            <Grid container id='containers'>
 
                 <Grid item xs={12} sm={4} md={5}>
                     <Box>
@@ -28,10 +28,17 @@ const LunasdelParque = () =>{
                 </Grid>
                 <Grid item xs={12} sm={4} md={5}>
                     <Box>
-                        <p>Se trata de un proyecto diferente dentro de la trama urbana, con vistas al Parque Centenario, <br/>la tipología recrea el concepto de casa en altura.</p>
+                        <p className='pInfoLunas'>Se trata de un proyecto diferente dentro de la trama urbana, con vistas al Parque Centenario, <br/>la tipología recrea el concepto de casa en altura.</p>
                     </Box>
-                    <Box>
-                        <p>Edificio Residencial "Lunas del Parque" Superficie: 3500 m2 Año: 2019</p>
+                    <Divider style={{marginTop:'1rem'}} />
+                    <Box className='boxInfoLunas'>
+                        <p className='pInfoLunasA'><span className='span'>Edificio Residencial</span></p>
+                        <p className='pInfoLunasA'><span className='span'>"Lunas del Parque"</span></p>
+                        <p className='pInfoLunasA'><span className='span'>Superficie: 3500 m2 </span></p>
+                        <p className='pInfoLunasA'><span className='span'>Año: 2019</span></p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
                     </Box>
                 </Grid>
 
