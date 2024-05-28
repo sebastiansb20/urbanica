@@ -49,6 +49,7 @@ const LunasdelParque = () =>{
                 
             </Grid>
         </div>
+        
         <div className='dvSeccionCentrado'>
             <img id='imgFrenteLunas2' src={frenteLunas2} alt='Lunas del Parque Urbanica Uruguay' />
         </div>
