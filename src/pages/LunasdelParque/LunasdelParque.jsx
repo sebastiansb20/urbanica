@@ -19,7 +19,7 @@ const LunasdelParque = () =>{
 
             <img id='imgFrenteLunas' src={frenteLunas} alt='Lunas del Parque Urbanica Uruguay'/>
 
-            <Grid container id='containers'>
+            <Grid container>
 
                 <Grid item xs={12} sm={4} md={5}>
                     <Box>
@@ -30,22 +30,27 @@ const LunasdelParque = () =>{
                     <Box>
                         <p className='pInfoLunas'>Se trata de un proyecto diferente dentro de la trama urbana, con vistas al Parque Centenario, <br/>la tipología recrea el concepto de casa en altura.</p>
                     </Box>
-                    <Divider style={{marginTop:'1rem'}} />
+                    {/* <div className='dividerS'><div></div> </div> */}
+                    <div class="h-divider">
+                        <div class="shadow"></div>
+                    </div>
+
                     <Box className='boxInfoLunas'>
                         <p className='pInfoLunasA'><span className='span'>Edificio Residencial</span></p>
-                        <p className='pInfoLunasA'><span className='span'>"Lunas del Parque"</span></p>
+                        <p className='pInfoLunasA'><span className='span'>Trinidad, Flores</span></p>
                         <p className='pInfoLunasA'><span className='span'>Superficie: 3500 m2 </span></p>
                         <p className='pInfoLunasA'><span className='span'>Año: 2019</span></p>
                         <p></p>
                         <p></p>
                         <p></p>
                     </Box>
+                    
                 </Grid>
-
+                
             </Grid>
         </div>
         <div className='dvSeccionCentrado'>
-            <img src={frenteLunas2} alt='Lunas del Parque Urbanica Uruguay' />
+            <img id='imgFrenteLunas2' src={frenteLunas2} alt='Lunas del Parque Urbanica Uruguay' />
         </div>
 
         <Grid container>
@@ -85,7 +90,7 @@ const LunasdelParque = () =>{
 
             </Grid>
         <div className='dvSeccionCentrado'>
-            <img src={contraFrenteLunas} alt='Lunas del Parque Urbanica Uruguay' />
+            <img id='imgContraFrente' src={contraFrenteLunas} alt='Lunas del Parque Urbanica Uruguay' />
         </div>
 
         <Footer />

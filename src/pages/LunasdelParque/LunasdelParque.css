@@ -1,6 +1,7 @@
 
 .dvHeroJacaranda{
     text-align:center;
+    
 }
 
 .dvHeroJacaranda h1{
@@ -9,16 +10,7 @@
     font-weight: 400;
 }
 
-.containers{
-    /* max-width: 70%; */
-    transition: 2s;
-}
 
-.containesr:hover{
-    /* max-width: 70%; */
-    background-color: blue;
-    /* transition: 2s; */
-}
 
 #imgFrenteLunas{
     max-width: 70%;
@@ -42,11 +34,7 @@
 .boxInfoLunas{
     text-align: left;
     margin-top:4rem;
-    transition: 2s;
-}
-
-.boxInfoLunas:hover{
-    background-color: red;
+   
 }
 
 .pInfoLunas{
@@ -78,3 +66,53 @@
     padding-left:8rem;
     
 }
+
+.dvSeccionCentrado{
+    text-align: center;
+    margin-top:10vh;
+    
+}
+
+#imgFrenteLunas2{
+    max-width: 80%;
+}
+/* 
+.dividerS{
+    border: 1.2px solid black;
+    box-shadow: 1px 2px 8px black;
+    opacity: 60&;
+} */
+
+
+  /*    * * * **  DIVIDER   * * * * */
+
+.h-divider {
+    margin: auto;
+    margin-top: 80px;
+    width: 100%;
+    position: relative;
+    opacity: 70%;
+  }
+  
+  .h-divider .shadow {
+    overflow: hidden;
+    height: 20px;
+  }
+  
+  .h-divider .shadow:after {
+    content: '';
+    display: block;
+    margin: -25px auto 0;
+    width: 100%;
+    height: 25px;
+    border-radius: 125px/12px;
+    box-shadow: 0 0 8px black;
+  }
+
+
+  /*    * * * **  DIVIDER   * * * * */
+
+  #imgContraFrente
+  {
+    max-width: 80%;
+  }
