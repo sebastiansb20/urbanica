@@ -49,47 +49,50 @@ const LunasdelParque = () =>{
                 
             </Grid>
         </div>
-        
+
         <div className='dvSeccionCentrado'>
             <img id='imgFrenteLunas2' src={frenteLunas2} alt='Lunas del Parque Urbanica Uruguay' />
         </div>
 
+        <div className="dvAmenitiesLunas">
         <Grid container>
 
-                <Grid item xs={12} sm={4} md={5}>
-                    <Box>
-                    <p>Constituido por 28 apartamentos de 1, 2 y 3 dormitorios, con amplias terrazas, parrilleros y calefacción.  <br/>Cuenta con amenities de excelente calidad:</p>
-                    </Box>
-                </Grid>
-                <Grid item xs={12} sm={4} md={5}>
-                    <Box>
-                        <li>
-                            <ul>
-                                <a>Amplia recepción con zonas sociales.</a>
-                            </ul>
-                            <ul>
-                                <a>Jardín parquizado.</a>
-                            </ul>
-                            <ul>
-                                <a>Barbacoa</a>
-                            </ul>
-                            <ul>
-                                <a>Piscina con solárium</a>
-                            </ul>
-                            <ul>
-                                <a>Gimnasio</a>
-                            </ul>
-                            <ul>
-                                <a>Cocheras individuales confortables</a>
-                            </ul>
-                            <ul>
-                                <a>Estacionamientos de cortesía</a>
-                            </ul>
-                        </li>
-                    </Box>
-                </Grid>
+        <Grid item xs={12} sm={4} md={5}>
+            <Box>
+            <p>Constituido por 28 apartamentos de 1, 2 y 3 dormitorios, con amplias terrazas, parrilleros y calefacción.  <br/>Cuenta con amenities de excelente calidad:</p>
+            </Box>
+        </Grid>
+        <Grid item xs={12} sm={4} md={5}>
+            <Box>
+                <li>
+                    <ul>
+                        <a>Amplia recepción con zonas sociales.</a>
+                    </ul>
+                    <ul>
+                        <a>Jardín parquizado.</a>
+                    </ul>
+                    <ul>
+                        <a>Barbacoa</a>
+                    </ul>
+                    <ul>
+                        <a>Piscina con solárium</a>
+                    </ul>
+                    <ul>
+                        <a>Gimnasio</a>
+                    </ul>
+                    <ul>
+                        <a>Cocheras individuales confortables</a>
+                    </ul>
+                    <ul>
+                        <a>Estacionamientos de cortesía</a>
+                    </ul>
+                </li>
+            </Box>
+        </Grid>
 
-            </Grid>
+        </Grid>
+        </div>
+        
         <div className='dvSeccionCentrado'>
             <img id='imgContraFrente' src={contraFrenteLunas} alt='Lunas del Parque Urbanica Uruguay' />
         </div>
