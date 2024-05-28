@@ -31,7 +31,7 @@ const Proyectos = () =>{
                 <hr></hr>
             </div>
 
-            <Proyecto nombreProyecto='Lunas del Parque' detalleProyecto='EDIFICIO RESIDENCIAL' imgProyecto={imgLunas} pos={1} />
+            <Proyecto nombreProyecto='Lunas del Parque' detalleProyecto='EDIFICIO RESIDENCIAL' imgProyecto={imgLunas} url='/lunasdelparque' pos={1} />
             <Proyecto nombreProyecto='Arazá' detalleProyecto='EDIFICIO RESIDENCIAL' imgProyecto={imgAraza} pos={0}/>
             
             <div className="dvheadingPr">

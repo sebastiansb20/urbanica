@@ -3,7 +3,7 @@ import { Grid, Box } from '@material-ui/core';
 // import Button from '@mui/material/Button';
 import './Proyecto.css'
 
-const Proyecto = ({nombreProyecto, detalleProyecto, imgProyecto, pos}) =>{
+const Proyecto = ({nombreProyecto, detalleProyecto, imgProyecto, url, pos}) =>{
     return(
         pos === 1 ? (
             <div className="dvSeccionProyecto">
@@ -17,7 +17,7 @@ const Proyecto = ({nombreProyecto, detalleProyecto, imgProyecto, pos}) =>{
                                 <div className='dvTextoProyecto'>
                                         <h2>{nombreProyecto} </h2>
                                         <h4>{detalleProyecto} </h4>
-                                        <button id="btnverproyecto">VER PROYECTO</button>
+                                        <a href={url}><button href={url} id="btnverproyecto">VER PROYECTO</button></a>
                                     </div>
                             </Box>
                         </Grid>
@@ -54,7 +54,7 @@ const Proyecto = ({nombreProyecto, detalleProyecto, imgProyecto, pos}) =>{
                                             <h4>{detalleProyecto} </h4>
                                         {/* </div> */}
                                         
-                                        <button id="btnverproyecto">VER PROYECTO</button>
+                                       <a href={url}> <button id="btnverproyecto">VER PROYECTO</button></a>
                                     </div>
                                 </Box>
                             </Grid>

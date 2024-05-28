@@ -31,6 +31,7 @@ const Hero = ()=> {
             <div className={styles.dvHeading1}>
                 <h1 id={styles.heading1}>PROYECTOS INTEGRALES</h1>
             </div>
+
             <div className={styles.dvHeading4}>
                 <h4 id={styles.heading4}>Enfocados en mejorar las condiciones de vida en la ciudad,
                     buscando la armonía entre lo construido y lo natural

@@ -11,6 +11,10 @@
 }
 
 
+h1{
+    font-size: 3em;
+    font-weight: normal;
+}
 
 .hero {
     justify-content: center;
@@ -99,8 +103,9 @@
 
 .dvHeading4{
     display: inline-block;
+    
     max-width: 750px;
-    padding-left: 2rem;
+    padding-left: 5rem;
     margin:auto
     /* margin-top:24px;
     margin-left: 150px; */
