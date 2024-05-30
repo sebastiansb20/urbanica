@@ -6,6 +6,7 @@ import Equipo from '../pages/Equipo/Equipo'
 import Contacto from '../pages/Contacto/Contacto'
 import ViaJacaranda from '../pages/ViaJacaranda/ViaJacaranda'
 import LunasdelParque from '../pages/LunasdelParque/LunasdelParque'
+import Araza from '../pages/Araza/Araza'
 
 function RoutesS() {
     return (
@@ -18,6 +19,7 @@ function RoutesS() {
           <Route exact path="/contacto" element={<Contacto />} />
           <Route exact path="/via-jacaranda" element={<ViaJacaranda />} />
           <Route exact path="/lunasdelparque" element={<LunasdelParque />} />
+          <Route exact path="/araza" element={<Araza />} />
         </Routes>
       </Router>
     );
