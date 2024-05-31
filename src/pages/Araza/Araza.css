@@ -6,7 +6,6 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    border: 4px solid black;
     /* position: sticky; */
     /* padding: 3rem; */
 }
@@ -22,58 +21,51 @@
     opacity:30%
 } */
 
+
+
+
 /* --- prueba h1 con imagen   * * **/
 .dvSeccionHeroAraza {
     text-align: center;
-    padding: 0;
+    padding-top: 2rem;
     
     /* display: flex; */
     /* position:relative; */
     /* margin:auto 0; */
    
   }
-.dvSeccionHeroAraza:hover{
-    padding-top:5rem;
-}
+
   .dvImagenTexto{
     display:flex;
+    text-align: center;
     justify-content: center;
-    width: auto;
-    /* position:relative; */
-    transition: 5s;
+    /* width: auto; */
     
   }
-  
-  .dvImagenTexto:hover{
-        margin-top:12rem;
-        padding-top: 5rem;
-  }
+ 
   /* #imgFrenteAraza {
     width: 100%; /* Ajusta el tamaño de la imagen según sea necesario */
     /* height: auto; Ajusta la altura de la imagen de forma proporcional */
     /* display: block; Asegura que la imagen se muestre como un bloque */
 
-    .dvSeccionHeroAraza h2 {
-        position: absolute;
-        width: auto;
-        font-size: 7rem;
-        top: 80%;/* Ajusta la posición verticalmente al centro*/
-        left: 50%; /*Ajusta la posición horizontalmente al centro*/
-        transform: translate(-40%, -40%); /*Centra el elemento con respecto a su propio tamaño*/
-        z-index: 1; /* Asegura que el título esté por encima de la imagen */
-        color: black; /* Cambia el color del texto según sea necesario */
-        text-align: center; /* Centra el texto horizontalmente */
-        opacity: 60%;
-        font-family: 'montserrat';
-        transition: 4s;
-        /* max-width: 900px; */
-        /* Agrega otros estilos según tus preferencias */
-      } 
+.dvImagenTexto h2 {
+    width: 1000px;
+    font-size: 5rem;
+    color: black; /* Cambia el color del texto según sea necesario */
+    /* text-align: center; Centra el texto horizontalmente */
+    opacity: 60%;
+    font-family: 'montserrat';
+    /* transition: 4s; */
+    /* max-width: 900px; */
+    /* Agrega otros estilos según tus preferencias */
+} 
 .dvSeccionHeroAraza h2:hover{
     opacity: 100%;
 }
 
   /*  -- - fin prueba  * * * ** * */
+
+
 #imgFrenteAraza{
     max-width: 70%;
     transition:1s;

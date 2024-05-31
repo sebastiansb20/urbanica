@@ -39,20 +39,15 @@ const Araza = () =>{
         <Navbar />
             <div className="dvLogoAraza">
               <img id='imgLogoAraza' src={logoAraza} style={{margin:'0 auto'}}alt='ArazaUrbanicaUruguay' />  
+              <h1 style={{display:'none'}}>Araza</h1>
             </div>
             
             <div className="dvSeccionHeroAraza">
-            
-                <div className="dvImagenTexto">
-
-                    <h2>UNA NUEVA FORMA DE VIVIR EN LA CIUDAD</h2>
-
                     <img id='imgFrenteAraza'src={arazaFrente} alt='ArazaUrbanicaUruguay' />
-
-                </div>
-                <h1 style={{display:'none'}}>Araza</h1>
-                
-
+            </div>
+            
+            <div className="dvImagenTexto">
+                <h2>UNA NUEVA FORMA DE VIVIR EN LA CIUDAD</h2>
             </div>
 
             <div className="dvSeccionTextoDerecha">
