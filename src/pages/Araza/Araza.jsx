@@ -37,6 +37,7 @@ const Araza = () =>{
     return(
         <>
         <Navbar />
+        <div className="container">
             <div className="dvLogoAraza">
               <img id='imgLogoAraza' src={logoAraza} style={{margin:'0 auto'}}alt='ArazaUrbanicaUruguay' />  
               <h1 style={{display:'none'}}>Araza</h1>
@@ -51,12 +52,12 @@ const Araza = () =>{
             </div>
 
             <div className="dvSeccionTextoDerecha">
-                <h2>ARQUITECTURA + PAISAJE: EL VEGETAL COMO PARTE FUNDAMENTAL DEL DISEÑO ARQUITECTÓNICO</h2>
+                <h2 className='headingVegetal hVDerecha'>ARQUITECTURA + PAISAJE: EL VEGETAL <br/><span className='spanParteF'>COMO PARTE FUNDAMENTAL </span><br/>DEL DISEÑO ARQUITECTÓNICO</h2>
                 <p>Un edificio que se convierte en un espacio vivo, con una cuidadosa selección del vegetal que procura recuperar biodiversidad y generar identidad local.
                     Un pequeño aporte a la ecología urbana que generará impactos positivos en la ciudad y a quienes lo habiten.</p>
             </div>
             <div className="dvSeccionTextoIzquierda">
-                <h2>Arazá es un espacio donde la arquitectura y la naturaleza conviven</h2>
+                <h2 className='headingVegetal hVIzquierda'>ARAZÁ ES UN ESPACIO DONDE LA ARQUITECTURA Y LA NATURALEZA CONVIVEN</h2>
                 <p>En la ciudad la presencia del vegetal se ve reducida a pocos espacios: plazas, canteros centrales de avenidas, 
                     algunos jardines particulares, perdiendo cada vez más el contacto con los ritmos naturales y los beneficios que aporta la naturaleza.</p>
             </div>
@@ -81,6 +82,8 @@ const Araza = () =>{
                 </ul>
                 <h2> SETIEMBRE, 2024</h2>
             </div>
+        </div>
+            
         </>
     )
 }

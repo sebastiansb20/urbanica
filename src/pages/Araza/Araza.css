@@ -2,6 +2,11 @@
 /* .dvSeccionHeroAraza{
     text-align: center;
 } */
+
+.container{
+    position:relative;
+    
+}
 .dvLogoAraza{
     display:flex;
     justify-content: center;
@@ -82,26 +87,67 @@
 } */
 
 .dvSeccionTextoDerecha{
-    display: flex;
-    /* justify-content: flex-end; */
+    /* display: flex;
+    flex-direction: column;
+    /* align-items: right; */
+    /* margin-right: 0; */
+    /* margin-left: auto;  */
+    
     /* text-align: right; */
-    max-width: 800px;
+    /* max-width: 800px; */
     background-color: rgba(29, 169, 29, 0.444);
+
 }
 
-.dvSeccionTextoDerecha h2{
+.headingVegetal.hVDerecha{
     font-family: 'montserrat';
-    font-size:2rem;
+    font-size:3.8rem;
+    max-width: auto;
+    /* text-align: center; */
+    margin-right:0;
+    margin-left:50rem;
+    opacity:80%;
 }
 
 .dvSeccionTextoDerecha p{
+    color:lightgray;
     font-family: 'montserrat';
-    font-size:1rem;
+    font-size:1.5rem;
+    line-height: 3rem;
+    max-width: 35rem;
+    margin-top:2rem;
+    margin-right:8rem;
+    margin-left:auto;
+    padding-left:1em;
+    padding-right:1em;
+    opacity:95%;
+    border:3px solid rgb(107, 107, 107);
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    background-color:black;
 }
+
+.spanParteF{
+    text-shadow: -1px -1px 0px rgb(84, 112, 55),
+    3px 3px 0px hsl(126, 82%, 44%),
+    6px 6px 0px rgb(197, 221, 172);
+}
+
 
 .dvSeccionTextoIzquierda{
     text-align: left;
     max-width: 800px;
+    
+}
+
+.headingVegetal.hVIzquierda{
+    font-family: 'montserrat';
+    font-size:3.8rem;
+    max-width: auto;
+    /* text-align: center; */
+    /* margin-right:0;
+    margin-left:50rem; */
+    opacity:80%;
 }
 
 .dvSeccionTextoIzquierda h2{
